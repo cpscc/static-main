@@ -1,6 +1,11 @@
 ---
 label: home
 hide_body: true
-fields: []
+fields:
+- name: cornerstone
+  type: text
+  config:
+    required: false
+  label: Cornerstone
 pages:
 - content/home.md
