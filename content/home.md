@@ -1,4 +1,0 @@
-+++
-cornerstone = "Something here"
-
-+++
