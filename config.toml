@@ -1,229 +1,165 @@
 baseURL = "http://something-fresh.org/"
+disableKinds = ["taxonomy", "taxonomyTerm"]
 languageCode = "en-us"
-title = "Cornerstone Payment Systems"
 theme = "hugo-fresh"
-disableKinds = [
-  "taxonomy",
-  "taxonomyTerm"
-]
-
-[markup]
-
-  [markup.goldmark]
-
-    [markup.goldmark.renderer]
-    unsafe = true
-
+title = "Cornerstone Payment Systems"
+[markup.goldmark.renderer]
+unsafe = true
 [params]
 openGraph = true
 section5 = true
-
-  [params.navbarlogo]
-  image = "logos/fresh.svg"
-  link = "/"
-
-  [params.font]
-  name = "Open Sans"
-  sizes = [
-    400.0,
-    600.0
-  ]
-
-  [params.hero]
-  title = "Manage. Deploy."
-  subtitle = "Lorem ipsum sit dolor amet is dummy text used by the typography industry"
-  buttontext = "Get started"
-  buttonlink = "#"
-  image = "illustrations/worker.svg"
-  clientlogos = [
-    "systek",
-    "tribe",
-    "kromo",
-    "infinite",
-    "gutwork"
-  ]
-
-  [params.section1]
-  title = "Great power comes"
-  subtitle = "with great responsibility"
-
-    [[params.section1.tiles]]
-    title = "App builder"
-    icon = "mouse-globe"
-    text = "This is some explanatory text that is on two rows"
-    url = "/"
-    buttonText = "Free trial"
-
-    [[params.section1.tiles]]
-    title = "Cloud integration"
-    icon = "laptop-cloud"
-    text = "This is some explanatory text that is on two rows"
-    url = "/"
-    buttonText = "Get started"
-
-    [[params.section1.tiles]]
-    title = "Add-ons & plugins"
-    icon = "plug-cloud"
-    text = "This is some explanatory text that is on two rows"
-    url = "/"
-    buttonText = "Get started"
-
-  [params.section2]
-  title = "You're here because you want the best"
-  subtitle = "And we know it"
-
-    [[params.section2.features]]
-    title = "Powerful and unified interface"
-    text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
-    icon = "laptop-globe"
-
-    [[params.section2.features]]
-    title = "Cross-device synchronisation"
-    text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
-    icon = "doc-sync"
-
-    [[params.section2.features]]
-    title = "Nomad system"
-    text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
-    icon = "mobile-feed"
-
-  [params.section3]
-  title = "One platform"
-  subtitle = "To rule them all"
-  image = "illustrations/mockups/app-mockup.png"
-  buttonText = "Get started"
-  buttonLink = "#"
-
-  [params.section4]
-  title = "Our Clients love us!"
-  subtitle = "Lorem ipsum sit dolor amet is a dummy text used by typography industry"
-
-    [[params.section4.clients]]
-    name = "Irma Walters"
-    quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
-    job = "Accountant"
-    img = 1.0
-
-    [[params.section4.clients]]
-    name = "John Bradley"
-    quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
-    job = "Financial Analyst"
-    img = 2.0
-
-    [[params.section4.clients]]
-    name = "Gary Blackman"
-    quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
-    job = "HR Manager"
-    img = 3.0
-
-  [params.footer]
-  logo = "fresh-white-alt.svg"
-  socialmediatitle = "Follow Us"
-  bulmalogo = true
-
-    [params.footer.quicklinks]
-
-      [params.footer.quicklinks.column1]
-      title = "Product"
-
-        [[params.footer.quicklinks.column1.links]]
-        text = "Discover features"
-        link = "/"
-
-        [[params.footer.quicklinks.column1.links]]
-        text = "Why choose our product?"
-        link = "/"
-
-        [[params.footer.quicklinks.column1.links]]
-        text = "Compare features"
-        link = "/"
-
-        [[params.footer.quicklinks.column1.links]]
-        text = "Our roadmap"
-        link = "/"
-
-        [[params.footer.quicklinks.column1.links]]
-        text = "AGB"
-        link = "/agb"
-
-      [params.footer.quicklinks.column2]
-      title = "Docs"
-
-        [[params.footer.quicklinks.column2.links]]
-        text = "Get started"
-        link = "/"
-
-        [[params.footer.quicklinks.column2.links]]
-        text = "User guides"
-        link = "/"
-
-        [[params.footer.quicklinks.column2.links]]
-        text = "Admin guide"
-        link = "/"
-
-        [[params.footer.quicklinks.column2.links]]
-        text = "Developers"
-        link = "/"
-
-      [params.footer.quicklinks.column3]
-      title = "Blog"
-
-        [[params.footer.quicklinks.column3.links]]
-        text = "Latest news"
-        link = "/blog/first"
-
-        [[params.footer.quicklinks.column3.links]]
-        text = "Tech articles"
-        link = "/blog/second"
-
-    [[params.footer.socialmedia]]
-    link = "https://github.com/lucperkins/github-fresh"
-    icon = "github"
-
-    [[params.footer.socialmedia]]
-    link = "https://dribbble.com/#"
-    icon = "dribbble"
-
-    [[params.footer.socialmedia]]
-    link = "https://facebook.com/#"
-    icon = "facebook"
-
-    [[params.footer.socialmedia]]
-    link = "https://twitter.com/lucperkins"
-    icon = "twitter"
-
-    [[params.footer.socialmedia]]
-    link = "https://bitbucket.org/#"
-    icon = "bitbucket"
-
-  [[params.navbar]]
-  title = "Features"
-  url = "/"
-
-  [[params.navbar]]
-  title = "Pricing"
-  url = "/"
-
-  [[params.navbar]]
-  title = "Dropdown"
-
-    [[params.navbar.sublinks]]
-    title = "Dropdown item"
-    url = "/"
-
-    [[params.navbar.sublinks]]
-    title = "Dropdown item"
-    url = "/"
-
-    [[params.navbar.sublinks]]
-    title = "Dropdown item"
-    url = "/"
-
-  [[params.navbar]]
-  title = "Log in"
-  url = "/"
-
-  [[params.navbar]]
-  title = "Sign up"
-  url = "/"
-  button = true
+[params.font]
+name = "Open Sans"
+sizes = [400, 600]
+[params.footer]
+bulmalogo = true
+logo = "fresh-white-alt.svg"
+socialmediatitle = "Follow Us"
+[params.footer.quicklinks.column1]
+title = "Product"
+[[params.footer.quicklinks.column1.links]]
+link = "/"
+text = "Discover features"
+[[params.footer.quicklinks.column1.links]]
+link = "/"
+text = "Why choose our product?"
+[[params.footer.quicklinks.column1.links]]
+link = "/"
+text = "Compare features"
+[[params.footer.quicklinks.column1.links]]
+link = "/"
+text = "Our roadmap"
+[[params.footer.quicklinks.column1.links]]
+link = "/agb"
+text = "AGB"
+[params.footer.quicklinks.column2]
+title = "Docs"
+[[params.footer.quicklinks.column2.links]]
+link = "/"
+text = "Get started"
+[[params.footer.quicklinks.column2.links]]
+link = "/"
+text = "User guides"
+[[params.footer.quicklinks.column2.links]]
+link = "/"
+text = "Admin guide"
+[[params.footer.quicklinks.column2.links]]
+link = "/"
+text = "Developers"
+[params.footer.quicklinks.column3]
+title = "Blog"
+[[params.footer.quicklinks.column3.links]]
+link = "/blog/first"
+text = "Latest news"
+[[params.footer.quicklinks.column3.links]]
+link = "/blog/second"
+text = "Tech articles"
+[[params.footer.socialmedia]]
+icon = "github"
+link = "https://github.com/lucperkins/github-fresh"
+[[params.footer.socialmedia]]
+icon = "dribbble"
+link = "https://dribbble.com/#"
+[[params.footer.socialmedia]]
+icon = "facebook"
+link = "https://facebook.com/#"
+[[params.footer.socialmedia]]
+icon = "twitter"
+link = "https://twitter.com/lucperkins"
+[[params.footer.socialmedia]]
+icon = "bitbucket"
+link = "https://bitbucket.org/#"
+[params.hero]
+buttonlink = "#"
+buttontext = "Get started"
+clientlogos = ["systek", "tribe", "kromo", "infinite", "gutwork"]
+image = "illustrations/worker.svg"
+subtitle = "Lorem ipsum sit dolor amet is dummy text used by the typography industry"
+title = "Manage. Deploy. Do Stuff."
+[params.navbarlogo]
+image = "logos/fresh.svg"
+link = "/"
+[params.section1]
+subtitle = "with great responsibility"
+title = "Great power comes"
+[[params.section1.tiles]]
+buttonText = "Free trial"
+icon = "mouse-globe"
+text = "This is some explanatory text that is on two rows"
+title = "App builder"
+url = "/"
+[[params.section1.tiles]]
+buttonText = "Get started"
+icon = "laptop-cloud"
+text = "This is some explanatory text that is on two rows"
+title = "Cloud integration"
+url = "/"
+[[params.section1.tiles]]
+buttonText = "Get started"
+icon = "plug-cloud"
+text = "This is some explanatory text that is on two rows"
+title = "Add-ons & plugins"
+url = "/"
+[params.section2]
+subtitle = "And we know it"
+title = "You're here because you want the best"
+[[params.section2.features]]
+icon = "laptop-globe"
+text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+title = "Powerful and unified interface"
+[[params.section2.features]]
+icon = "doc-sync"
+text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+title = "Cross-device synchronisation"
+[[params.section2.features]]
+icon = "mobile-feed"
+text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+title = "Nomad system"
+[params.section3]
+buttonLink = "#"
+buttonText = "Get started"
+image = "illustrations/mockups/app-mockup.png"
+subtitle = "To rule them all"
+title = "One platform"
+[params.section4]
+subtitle = "Lorem ipsum sit dolor amet is a dummy text used by typography industry"
+title = "Our Clients love us!"
+[[params.section4.clients]]
+img = 1
+job = "Accountant"
+name = "Irma Walters"
+quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
+[[params.section4.clients]]
+img = 2
+job = "Financial Analyst"
+name = "John Bradley"
+quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
+[[params.section4.clients]]
+img = 3
+job = "HR Manager"
+name = "Gary Blackman"
+quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
+[[params.navbar]]
+title = "Features"
+url = "/"
+[[params.navbar]]
+title = "Pricing"
+url = "/"
+[[params.navbar]]
+title = "Dropdown"
+[[params.navbar.sublinks]]
+title = "Dropdown item"
+url = "/"
+[[params.navbar.sublinks]]
+title = "Dropdown item"
+url = "/"
+[[params.navbar.sublinks]]
+title = "Dropdown item"
+url = "/"
+[[params.navbar]]
+title = "Log in"
+url = "/"
+[[params.navbar]]
+button = true
+title = "Sign up"
+url = "/"
