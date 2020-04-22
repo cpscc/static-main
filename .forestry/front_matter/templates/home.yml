@@ -2,11 +2,11 @@
 label: home
 hide_body: true
 fields:
-- name: cornerstone
+- name: text_field
   type: text
   config:
     required: false
-  label: Cornerstone
+  label: Text Field
 - name: body_text
   type: textarea
   default: ''
