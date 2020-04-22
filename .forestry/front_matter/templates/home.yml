@@ -7,5 +7,14 @@ fields:
   config:
     required: false
   label: Cornerstone
+- name: body_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Body Text
 pages:
 - content/home.md
