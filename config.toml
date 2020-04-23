@@ -13,7 +13,7 @@ name = "Open Sans"
 sizes = [400, 600]
 [params.footer]
 bulmalogo = true
-logo = "fresh-white-alt.svg"
+logo = "horizontal_white_logo.png"
 socialmediatitle = "Follow Us"
 [params.footer.quicklinks.column1]
 title = "Product"
