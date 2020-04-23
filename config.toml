@@ -77,7 +77,7 @@ image = "illustrations/worker.svg"
 subtitle = "Lorem ipsum sit dolor amet is dummy text used by the typography industry"
 title = "Manage. Deploy. Do Stuff, etc."
 [params.navbarlogo]
-image = "small_logo.png"
+image = "horizontal_logo.png"
 link = "/"
 [params.section1]
 subtitle = "with great responsibility"
