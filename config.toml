@@ -75,7 +75,7 @@ buttontext = "Get started"
 clientlogos = ["systek", "tribe", "kromo", "infinite", "gutwork"]
 image = "illustrations/worker.svg"
 subtitle = "Lorem ipsum sit dolor amet is dummy text used by the typography industry"
-title = "Manage. Deploy. Do Stuff, etc."
+title = "Manage. Deploy. Do Stuff, etc..."
 [params.navbarlogo]
 image = "small_center_logo.png"
 link = "/"
