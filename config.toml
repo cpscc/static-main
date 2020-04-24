@@ -7,7 +7,7 @@ title = "Cornerstone Payment Systems"
 unsafe = true
 [params]
 openGraph = true
-section5 = true
+section5 = false
 [params.font]
 name = "Open Sans"
 sizes = [400, 600]
