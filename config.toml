@@ -55,6 +55,9 @@ text = "Latest news"
 link = "/blog/second"
 text = "Tech articles"
 [[params.footer.socialmedia]]
+icon = ""
+link = ""
+[[params.footer.socialmedia]]
 icon = "github"
 link = "https://github.com/lucperkins/github-fresh"
 [[params.footer.socialmedia]]
@@ -75,7 +78,7 @@ buttontext = "Get started"
 clientlogos = ["systek", "tribe", "kromo", "infinite", "gutwork"]
 image = "illustrations/worker.svg"
 subtitle = "Lorem ipsum sit dolor amet is dummy text used by the typography industry"
-title = "Manage. Deploy. Do Stuff, etc."
+title = "Manage. Deploy. Do Stuff, etc..."
 [params.navbarlogo]
 image = "small_center_logo.png"
 link = "/"
@@ -86,7 +89,7 @@ title = "Great power comes"
 buttonText = "Free trial"
 icon = "mouse-globe"
 text = "This is some explanatory text that is on two rows"
-title = "App builder"
+title = "Donation CRM "
 url = "/"
 [[params.section1.tiles]]
 buttonText = "Get started"
